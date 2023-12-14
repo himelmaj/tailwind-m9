@@ -1,8 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Pirata+One&family=Poppins&family=Roboto:ital,wght@0,400;1,300&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 body {
   background-color: #615045;
+  font-family: "Roboto", sans-serif;
   color: #ebe3d8;
+}
+@layer components {
+  .input-form {
+    @apply block p-3 rounded-md w-full mb-3;
+    background-color: #ebe3d8;
+    color: #615045;
+  }
+  .navlink{
+    @apply hover:text-blue-400 font-bold;
+  }
 }

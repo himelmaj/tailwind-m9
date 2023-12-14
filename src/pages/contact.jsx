@@ -1,9 +1,12 @@
-import React from "react";
+import FormContact from "../components/formContact";
+
 function Contact() {
   return (
-    <main>
-contact
-    </main>
+<main className="text-center mt-20 mb-56">
+  <h2 className="text-8xl">Contact</h2>
+  <FormContact />
+</main>
+
   );
 }
 

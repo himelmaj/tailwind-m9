@@ -6,17 +6,17 @@ function Navigation() {
       <ul class="flex space-x-40">
         <li>
           <NavLink to="/home" class="">
-            <span className="hover:text-stone-900 font-bold">Home</span>
-          </NavLink>
-        </li>
-        <li>
-          <NavLink to="/contact" class="">
-            <span className="hover:text-stone-900 font-bold">Contact</span>
+            <span className="navlink">Home</span>
           </NavLink>
         </li>
         <li>
           <NavLink to="/about" class="">
-            <span className="hover:text-stone-900 font-bold">About</span>
+            <span className="navlink">About</span>
+          </NavLink>
+        </li>
+        <li>
+          <NavLink to="/contact" class="">
+            <span className="navlink">Contact</span>
           </NavLink>
         </li>
       </ul>

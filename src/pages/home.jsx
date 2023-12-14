@@ -4,7 +4,7 @@ import Section from '../components/section'
 
 export default function Home() {
   return (
-    <main>
+    <main className="mt-20">
         <section>
             <h1 className='text text-9xl'>Ñude</h1>
 
